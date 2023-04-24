@@ -1,0 +1,148 @@
+.first {
+  position: relative;
+  width:100vw;
+  height:70vw;
+}
+.square {
+  margin-left: 40vw;
+  margin-top: 25vw;
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  background-color: #060219;
+  position: absolute;
+  transform: rotate(30deg);
+  animation: squaree 1.5s infinite;
+}
+.brick7 {
+  margin-left: 37vw;
+  margin-top: 18vw;
+  height: 2vw;
+  width: 10vw;
+  background-color: #000B6F;
+  position: absolute;
+  transform: rotate(-15deg);
+}
+.brick8 {
+  margin-left: 11vw;
+  margin-top: 48vw;
+  height: 2vw;
+  width: 72vw;
+  background-color: #000B6F;
+  position: absolute;
+  transform: rotate(-100deg);
+}
+.brick1 {
+  margin-left: 10vw;
+  margin-top: 40vw;
+  height: 4vw;
+  width: 50vw;
+  background-color: #D79F04;
+  position: absolute;
+  transform: rotate(-8deg);
+  animation: brick 3s infinite;
+}
+.circle {
+  margin-left: 10vw;
+  margin-top: 10vw;
+  height: 20vw;
+  width: 20vw;
+  background-color: #AA2400;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  position: absolute;
+  animation: circlee 1s infinite;
+}
+.second {
+  position: relative;
+  width:100vw;
+  height:30vw;
+}
+.brick2 {
+  margin-left: 10vw;
+  margin-top: 9vw;
+  height: 5vw;
+  width: 30vw;
+  background-color: #D79F04;
+  position: absolute;
+  transform: rotate(-66deg);
+  animation: brickk 0.4s infinite;
+}
+.brick3 {
+  margin-left: 15vw;
+  margin-top: 7vw;
+  height: 4vw;
+  width: 31vw;
+  background-color: #84280B;
+  position: absolute;
+  transform: rotate(-66deg);
+  animation: brickk 0.4s infinite;
+}
+.brick4 {
+  margin-left: 33vw;
+  margin-top: 6vw;
+  height: 7vw;
+  width: 17vw;
+  background-color: #E0D8DD;
+  position: absolute;
+  transform: rotate(-66deg);
+  animation: brickk 1s infinite;
+}
+.brick5 {
+  margin-left: 70vw;
+  margin-top: 6vw;
+  height: 3vw;
+  width: 23vw;
+  background-color: #84280B;
+  position: absolute;
+  transform: rotate(-20deg);
+  animation: brick 0.9s infinite;
+}
+.brick6 {
+  margin-left: 81vw;
+  margin-top: 8vw;
+  height: 3vw;
+  width: 17vw;
+  background-color: #D79F04;
+  position: absolute;
+  transform: rotate(-20deg);
+  animation: brick 1s infinite;
+}
+
+@keyframes brick {
+ 0% { opacity: 0%};
+ 100% { opacity: 100%};
+}
+@keyframes circlee {
+  from {
+    transform: scale(.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.85);
+  }
+}
+@keyframes brickk {
+  from {
+    transform: rotate(-66deg);
+  }
+  50% {
+    transform: rotate(-150deg);
+  }
+  to {
+    transform: rotate(-66deg);
+  }
+}
+@keyframes squaree {
+  from {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(150deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
